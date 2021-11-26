@@ -8,6 +8,13 @@ $PRINCIPAL: #2B2B2B;
     padding: 0;
 }
 
+/* BODY */
+body{
+    background-color: #2B2B2B;
+}
+
+/* HEADER */
+
 .header{
     width: 100%;
     nav{
@@ -55,4 +62,37 @@ $PRINCIPAL: #2B2B2B;
             }
         }
     }
+}
+
+li:hover{
+    background-image: linear-gradient(to top,#f84043 0%,  #FFA500 100%);
+}
+
+
+
+
+
+/* SECTION NOSOTROS */
+
+#nosotros{
+    background-color: #2B2B2B;
+    color: #fff;
+}
+
+.parrafosNosotros{
+    text-align: center;
+    font-size: 14px;
+}
+
+/* NUESTRAS MARCAS */
+#marcas{
+    background-color: #2B2B2B;
+    color: #fff;
+    margin-top: 8em;
+}
+
+.marcasImagenes{
+display: flex;
+justify-content: space-evenly;
+
 }

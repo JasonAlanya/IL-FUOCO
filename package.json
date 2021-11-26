@@ -1,0 +1,19 @@
+{
+  "name": "il-fuoco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonAlanya/IL-FUOCO.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JasonAlanya/IL-FUOCO/issues"
+  },
+  "homepage": "https://github.com/JasonAlanya/IL-FUOCO#readme"
+}
