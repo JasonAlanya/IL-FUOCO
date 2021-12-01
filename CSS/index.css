@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+/* TIPORGRAFIA */
+/* COLORES */
 * {
   margin: 0;
   border: 0;
@@ -60,6 +63,7 @@ li:hover {
 
 /* SECTION NOSOTROS */
 #nosotros {
+  font-family: "Signika", sans-serif;
   background-color: #2B2B2B;
   color: #fff;
 }
@@ -79,6 +83,101 @@ li:hover {
 .marcasImagenes {
   display: flex;
   justify-content: space-evenly;
+}
+
+/* KITS STANDAR */
+#kits_estandar {
+  background-color: #FFFFFF;
+}
+
+/* PREGUNTAS FRECUENTES */
+#preguntasFrecuentes {
+  background-color: #735742;
+  color: #FFFFFF;
+  padding: 80px;
+}
+
+.tituloPreguntas {
+  font-family: "Signika", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 20px;
+}
+
+.parrafoPreguntas {
+  width: 450px;
+}
+
+.preguntas {
+  font-size: 14px;
+  text-align: start;
+}
+
+.respuestaDePreguntas {
+  font-size: 12px;
+  text-align: start;
+}
+
+/* CONTACTO */
+#contacto {
+  color: #FFFFFF;
+  font-family: "Signika", sans-serif;
+  padding: 40px;
+}
+
+.tituloContacto {
+  font-size: 30px;
+}
+
+.subtituloContacto {
+  font-size: 16px;
+}
+
+.tituloFormulario {
+  font-family: "Signika", sans-serif;
+  margin-top: 10px;
+}
+
+.form-control {
+  font-family: "Signika", sans-serif;
+  margin-bottom: 5px;
+  width: 25em;
+}
+
+.botonContacto {
+  background-color: black;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.logoContacto {
+  width: 80px;
+  height: 80px;
+}
+
+.informacionContacto {
+  background-color: #fff;
+  font-family: "Signika", sans-serif;
+  color: #2B2B2B;
+  border-radius: 5px;
+  width: 23em;
+  padding: 30px 10px;
+}
+
+/* BOTON WHATSAPP */
+.iconosDeRedesSociales {
+  position: fixed;
+  right: 1.5%;
+  top: 80%;
+}
+
+.fixed__icon {
+  width: 40px;
+  height: 40px;
 }
 
 /*# sourceMappingURL=index.css.map */
