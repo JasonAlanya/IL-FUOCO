@@ -150,17 +150,22 @@ justify-content: space-evenly;
   #contacto{
     color: #FFFFFF;
     font-family: $SIGNIKA;
-    padding: 40px;
   }
   .tituloContacto{
       font-size: 30px;
   }
   .subtituloContacto{
       font-size: 16px;
+      width: 700px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-content: center;
   }
   
   .tituloFormulario{
     font-family: $SIGNIKA;
+    font-size: 25px;
     margin-top: 10px;
   }
   .form-control{
@@ -170,14 +175,15 @@ justify-content: space-evenly;
   }
 
   .botonContacto{
-    background-color: black;
+    background-color: orangered;
+    border: black;
     color: $TERCIARIO;
-    border-radius: 10px;
+    border-radius: 5px;
   }
   
   .logoContacto{
     width: 80px;
-    height: 80px;
+    height: 70px;
   }
 
   .informacionContacto{
@@ -189,6 +195,13 @@ justify-content: space-evenly;
     padding: 30px 10px;
 
   }
+
+  .imgUbicacion{
+  max-width: 100vw;
+  height: auto;
+  }
+
+
   /* BOTON WHATSAPP */
   .iconosDeRedesSociales{
     position: fixed;
@@ -198,4 +211,27 @@ justify-content: space-evenly;
   .fixed__icon{
     width: 40px;
     height: 40px;
+  }
+
+
+  /* FOOTER */
+  .footerIndex{
+    background-color: $PRINCIPAL;
+    color: $TERCIARIO;
+    width: 100%;
+    height: auto;
+  }
+
+  .linksFooter{
+    text-decoration: none;
+    color: $TERCIARIO;
+    margin: 0px 10px;
+  }
+
+  .contenidoFooter{
+    color: $TERCIARIO;  
+    display: inline;
+  }
+  .sitioFooter{
+    font-size: 16px;
   }
