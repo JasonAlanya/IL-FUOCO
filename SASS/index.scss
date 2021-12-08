@@ -76,8 +76,27 @@ li:hover{
     background-image: linear-gradient(to top,#f84043 0%,  #FFA500 100%);
 }
 
+/* HOME */
 
 
+.titleHome{
+  color: $TERCIARIO;
+  font-size: 26px;
+  font-weight: 700;
+
+}
+.subtitleHome{
+color: $TERCIARIO;
+text-align: center;
+font-size: 18px;
+}
+.subtitleHome:hover{
+  border-bottom: 1px solid $TERCIARIO ;
+}
+
+.imgHome{
+  height: 400px;
+}
 
 
 /* SECTION NOSOTROS */
@@ -86,6 +105,7 @@ li:hover{
     font-family: $SIGNIKA;
     background-color: #2B2B2B;
     color: #fff;
+    margin-top: 140px;
 }
 
 .parrafosNosotros{
