@@ -17,47 +17,69 @@ body {
 .header {
   width: 100%;
 }
+
 .header nav {
   background-color: #2B2B2B;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
   height: 100px;
 }
+
 .header nav ol {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   list-style: none;
   width: 100%;
 }
+
 .header nav ol li {
   width: 12%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
+
 .header nav ol li a {
   text-decoration: none;
   color: white;
   font-family: "Signika", sans-serif;
   margin-bottom: 20px;
 }
+
 .header nav ol li .logoimg {
   margin-bottom: 0px;
 }
+
 .header nav ol li .logoimg img {
   height: 90px;
 }
+
 .header nav ol li:first-child {
   width: 8%;
 }
+
 .header nav ol li:last-child {
   width: 8%;
-  justify-content: start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
 }
+
 .header nav ol li:last-child a {
   padding-right: 20%;
 }
 
 li:hover {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#f84043), to(#FFA500));
   background-image: linear-gradient(to top, #f84043 0%, #FFA500 100%);
 }
 
@@ -81,13 +103,96 @@ li:hover {
 }
 
 .marcasImagenes {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 /* KITS STANDAR */
 #kits_estandar {
   background-color: #FFFFFF;
+}
+
+#productos {
+  background-color: #FFFFFF;
+}
+
+#productos .contenedor-kits {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: auto;
+}
+
+#productos .contenedor-kits .fila {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#productos .contenedor-kits .fila .kit {
+  width: 85%;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#productos .contenedor-kits .fila .kit img {
+  width: 100%;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: .1s ease;
+  transition: .1s ease;
+}
+
+#productos .contenedor-kits .fila .kit .kit-titulo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+#productos .contenedor-kits .fila .kit .kit-titulo h2 {
+  font-size: 0.7em;
+}
+
+#productos .contenedor-kits .fila .kit:hover .kit-titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#productos .contenedor-kits .fila .kit:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#productos .contenedor-kits .fila1 .kit1 {
+  margin-bottom: 30px;
 }
 
 /* PREGUNTAS FRECUENTES */
@@ -128,6 +233,10 @@ li:hover {
   font-family: "Signika", sans-serif;
 }
 
+#contacto img {
+  width: 100%;
+}
+
 .tituloContacto {
   font-size: 30px;
 }
@@ -136,9 +245,14 @@ li:hover {
   font-size: 16px;
   width: 700px;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 .tituloFormulario {
@@ -192,11 +306,15 @@ li:hover {
 }
 
 /* FOOTER */
-.footerIndex {
+#footerIndex {
   background-color: #2B2B2B;
   color: #fff;
   width: 100%;
   height: auto;
+}
+
+#footerIndex .contenidoFooter .row {
+  width: 100%;
 }
 
 .linksFooter {
@@ -213,5 +331,4 @@ li:hover {
 .sitioFooter {
   font-size: 16px;
 }
-
 /*# sourceMappingURL=index.css.map */

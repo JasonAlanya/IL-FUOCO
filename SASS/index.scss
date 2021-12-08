@@ -108,8 +108,68 @@ justify-content: space-evenly;
 
 /* KITS STANDAR */
 #kits_estandar{
-    background-color: #FFFFFF ;
+  background-color: #FFFFFF ;
+}
+
+#productos{
+  background-color: #FFFFFF ;
+
+  .contenedor-kits{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    .fila{
+      width: 25%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .kit{
+        width: 85%;
+        position: relative;
+        margin: 0 auto;
+        overflow: hidden;
+
+        img{
+          width: 100%;
+          transform: scale(1);
+          transition: .1s ease;
+        }
+
+        .kit-titulo{
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0,0,0,0.5);
+          display: none;
+          justify-content: center;
+          align-items: center;
+          color: #fff;
+          h2{
+            font-size: 0.7em;
+          }
+        }
+
+        &:hover .kit-titulo{
+          display: flex;
+        }
+
+        &:hover img{
+          transform: scale(1.2);
+        }
+      }
+    }
+
+    .fila1{
+      .kit1{
+        margin-bottom: 30px;
+      }
+    }
   }
+}
   
   
   /* PREGUNTAS FRECUENTES */
@@ -150,6 +210,10 @@ justify-content: space-evenly;
   #contacto{
     color: #FFFFFF;
     font-family: $SIGNIKA;
+
+      img{
+        width: 100%;
+      }
   }
   .tituloContacto{
       font-size: 30px;
@@ -215,11 +279,16 @@ justify-content: space-evenly;
 
 
   /* FOOTER */
-  .footerIndex{
+  #footerIndex{
     background-color: $PRINCIPAL;
     color: $TERCIARIO;
     width: 100%;
     height: auto;
+    .contenidoFooter{
+      .row{
+        width: 100%;
+      }
+    }
   }
 
   .linksFooter{
