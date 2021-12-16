@@ -60,17 +60,63 @@
 
     <!-- HOME -->
     <section id="inicio" class="">
-        <div class="row">
-            <div class="col-4">
-                <img class="imgHome " src="Images/home1.png" alt="">
-            </div>   
-            <div class="col-8 p-5">
-                <div class="text-center pt-5">
-                    <h2 class="titleHome text-start pt-5">CALIDAD Y DISEÑO</h2>
-                    <h3 class="subtitleHome text-start pt-1 pb-1 ">Contactanos</h3>
-                </div>
-            
-            </div>                  
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                 <div class="row">
+                        <div class="col-4">
+                            <img class="imgHome " src="Images/home1.png" alt="">
+                        </div>   
+                        <div class="col-8 p-5">
+                            <div class="text-center pt-5">
+                                <h2 class="titleHome text-start pt-5">CALIDAD Y DISEÑO</h2>
+                                <h3 class="subtitleHome text-start pt-1 pb-1 ">Contactanos</h3>
+                            </div>
+                        </div>
+                    </div>    
+              </div>
+              <div class="carousel-item">
+                 <div class="row">
+                        <div class="col-4">
+                            <img class="imgHome " src="Images/home2.png" alt="">
+                        </div>   
+                        <div class="col-8 p-5">
+                            <div class="text-center pt-5">
+                                <h2 class="titleHome text-start pt-5">HOGARES Y PARRILLAS</h2>
+                                <h3 class="subtitleHome text-start pt-1 pb-1 ">Nuestros productos</h3>
+                            </div>
+                        </div>
+                    </div>    
+              </div>
+              <div class="carousel-item">
+                 <div class="row">
+                        <div class="col-4">
+                            <img class="imgHome " src="Images/home3.png" alt="">
+                        </div>   
+                        <div class="col-8 p-5">
+                            <div class="text-center pt-5">
+                                <h2 class="titleHome text-start pt-5">DISEÑO, FABRICACION Y VENTA</h2>
+                                <h3 class="subtitleHome text-start pt-1 pb-1 ">Descubrinos</h3>
+                            </div>
+                        </div>
+                    </div>    
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+             
     </section>
 
     <!-- NOSOTROS -->
@@ -78,25 +124,35 @@
         <div class="row">
             <div class="col-3"></div>
             <div class="col-6">
-                <h3 class="d-flex justify-content-center">¿QUIÉNES SOMOS?</h3>
-                <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores quo dolores architecto, deserunt repellendus suscipit hic unde provident ratione non pariatur perferendis vel dolorem quaerat quia repudiandae recusandae et optio.</p>
+                <h3 class="d-flex justify-content-center titulosNosotros">¿QUIÉNES SOMOS?</h3>
+                <div class="d-flex justify-content-center">
+                    <p class="subtituloNosotros">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores quo dolores architecto, deserunt repellendus suscipit hic unde provident ratione non pariatur perferendis vel dolorem quaerat quia repudiandae recusandae et optio.</p>
+                </div>
             </div>
             <div class="col-3"></div>
         </div>
         <div class="row">
-            <div class="col-6">
-                <h4 class="d-flex justify-content-center">CALIDAD</h4>
-                <p class="parrafosNosotros">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores quo dolores architecto, deserunt repellendus suscipit hic unde provident ratione non pariatur perferendis vel dolorem quaerat quia repudiandae recusandae et optio.</p>
+            <div class="col-6 ">
+                <div class="d-flex justify-content-end me-5">
+                    <h4 class="titulosNosotros me-5">CALIDAD</h4>
+                </div>
+               <div class="d-flex justify-content-end">
+                    <p class="parrafosNosotros">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores quo dolores architecto, deserunt repellendus suscipit hic unde provident ratione non pariatur perferendis vel dolorem quaerat quia repudiandae recusandae et optio.</p>
+               </div>
             </div>
             <div class="col-6">
-                <h4 class="d-flex justify-content-center">SISTEMA</h4>
-                <p class="parrafosNosotros">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores quo dolores architecto, deserunt repellendus suscipit hic unde provident ratione non pariatur perferendis vel dolorem quaerat quia repudiandae recusandae et optio.</p>
+                <div class="d-flex justify-content-start ms-5">
+                    <h4 class="titulosNosotros ms-5">SISTEMA</h4>
+                </div>
+                <div class="d-flex justify-content-start">
+                    <p class="parrafosNosotros">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores quo dolores architecto, deserunt repellendus suscipit hic unde provident ratione non pariatur perferendis vel dolorem quaerat quia repudiandae recusandae et optio.</p>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- MARCAS -->
-    <section id="marcas" class="container">
+    <section id="marcas" class="container mb-5">
             <div class="row">
                 <div class="col-12">
                     <h3 class="d-flex justify-content-center">NUESTRAS MARCAS</h3>
@@ -125,6 +181,7 @@
                 <img src="Images/Kit-magma-obra.png" alt="">
             </div>
     </section>
+
     <!-- PRODUCTOS -->
     <section id="productos">
         <h3 class="tituloproductos d-flex justify-content-center">NUESTROS PRODUCTOS</h3>
