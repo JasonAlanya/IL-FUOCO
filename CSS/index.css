@@ -1,7 +1,12 @@
+/* COMPONENTES */
 @import url("https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 /* TIPORGRAFIA */
 /* COLORES */
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 * {
   margin: 0;
   border: 0;
@@ -11,54 +16,6 @@
 /* BODY */
 body {
   background-color: #2B2B2B;
-}
-
-/* HEADER */
-.header {
-  width: 100%;
-}
-.header nav {
-  background-color: #2B2B2B;
-  display: flex;
-  width: 100%;
-  height: 100px;
-}
-.header nav ol {
-  display: flex;
-  list-style: none;
-  width: 100%;
-}
-.header nav ol li {
-  width: 12%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
-.header nav ol li a {
-  text-decoration: none;
-  color: white;
-  font-family: "Signika", sans-serif;
-  margin-bottom: 20px;
-}
-.header nav ol li .logoimg {
-  margin-bottom: 0px;
-}
-.header nav ol li .logoimg img {
-  height: 90px;
-}
-.header nav ol li:first-child {
-  width: 8%;
-}
-.header nav ol li:last-child {
-  width: 8%;
-  justify-content: start;
-}
-.header nav ol li:last-child a {
-  padding-right: 20%;
-}
-
-li:hover {
-  background-image: linear-gradient(to top, #f84043 0%, #FFA500 100%);
 }
 
 /* HOME */
@@ -118,7 +75,7 @@ li:hover {
 
 /* KITS STANDAR */
 #kits_estandar {
-  background-color: #FFFFFF;
+  background-color: #fff;
   padding: 40px 0 150px 0;
 }
 #kits_estandar .kit_estandar_component {
@@ -162,7 +119,7 @@ li:hover {
 }
 
 #productos {
-  background-color: #FFFFFF;
+  background-color: #fff;
   padding-bottom: 120px;
 }
 #productos .tituloproductos {
@@ -219,7 +176,7 @@ li:hover {
 /* PREGUNTAS FRECUENTES */
 #preguntasFrecuentes {
   background-color: #735742;
-  color: #FFFFFF;
+  color: #fff;
   padding: 80px;
 }
 
@@ -250,7 +207,7 @@ li:hover {
 
 /* CONTACTO */
 #contacto {
-  color: #FFFFFF;
+  color: #fff;
   font-family: "Signika", sans-serif;
 }
 #contacto img {
@@ -284,14 +241,14 @@ li:hover {
 
 .botonContacto {
   background-color: orangered;
-  border: black;
+  border: #2B2B2B;
   color: #fff;
   border-radius: 5px;
 }
 
 .logoContacto {
-  width: 80px;
-  height: 70px;
+  width: 7em !important;
+  height: 4em;
 }
 
 .informacionContacto {
@@ -306,18 +263,6 @@ li:hover {
 .imgUbicacion {
   max-width: 100vw;
   height: auto;
-}
-
-/* BOTON WHATSAPP */
-.iconosDeRedesSociales {
-  position: fixed;
-  right: 1.5%;
-  top: 80%;
-}
-
-.fixed__icon {
-  width: 40px;
-  height: 40px;
 }
 
 /* FOOTER */
@@ -345,5 +290,169 @@ li:hover {
 .sitioFooter {
   font-size: 16px;
 }
+
+/* HEADER */
+.header {
+  width: 100%;
+}
+.header nav {
+  background-color: #2B2B2B;
+  display: flex;
+  width: 100%;
+  height: 100px;
+}
+.header nav ol {
+  display: flex;
+  list-style: none;
+  width: 100%;
+}
+.header nav ol li {
+  width: 12%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.header nav ol li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Signika", sans-serif;
+  margin-bottom: 20px;
+}
+.header nav ol li .logoimg {
+  margin-bottom: 0px;
+}
+.header nav ol li .logoimg img {
+  height: 90px;
+}
+.header nav ol li:first-child {
+  width: 8%;
+}
+.header nav ol li:last-child {
+  width: 8%;
+  justify-content: start;
+}
+.header nav ol li:last-child a {
+  padding-right: 20%;
+}
+
+li:hover {
+  background-image: linear-gradient(to top, #f84043 0%, #FFA500 100%);
+}
+
+/* BOTON WHATSAPP */
+.iconosDeRedesSociales {
+  position: fixed;
+  right: 1.5%;
+  top: 80%;
+}
+
+.fixed__icon {
+  width: 40px;
+  height: 40px;
+}
+
+/* TIPORGRAFIA */
+/* COLORES */
+.presentacionImagenMarca {
+  margin-top: 40px;
+}
+
+.presentacionMarca {
+  color: #fff;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.descripcionMarca {
+  color: #fff;
+  margin-top: 10px;
+  font-size: 13px;
+  width: 700px;
+}
+
+.filtraciones {
+  font-size: 10px;
+  color: #fff;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.tipo_filtraciones {
+  background-color: #2B2B2B;
+  font-size: 13px;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CARD */
+.card {
+  background-color: #2B2B2B;
+  border: none;
+  width: 320px;
+}
+
+.card:hover {
+  border-bottom: 2px #fff solid;
+}
+
+.imgCardMarca {
+  width: 320px;
+  height: 250px;
+}
+
+.titleCardMarca {
+  margin: 8px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.modeloCardMarca {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.textoCardMarca {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+/* RELACIONADOS */
+.productosRelacionados {
+  background-color: #fff;
+  border: none;
+}
+
+.titleRelacionados {
+  color: #2B2B2B;
+  font-size: "Signika", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.cardRelacionados {
+  background-color: #fff;
+}
+
+.imgCardRelacionados {
+  width: 350px;
+  height: 200px;
+}
+
+.modeloRelacionados {
+  color: #2B2B2B;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 8px;
+}
+
+/* BASE */
+/* TIPORGRAFIA */
+/* COLORES */
 
 /*# sourceMappingURL=index.css.map */

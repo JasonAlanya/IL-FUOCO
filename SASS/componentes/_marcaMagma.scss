@@ -1,0 +1,98 @@
+@import '../base/operadores';
+
+
+.presentacionImagenMarca{
+    margin-top: 40px;
+}
+.presentacionMarca{
+    color: $TERCIARIO;
+    font-size: 16px;
+    margin-top: 30px ;
+}
+
+.descripcionMarca{
+    color: $TERCIARIO;
+    margin-top: 10px;
+    font-size: 13px;
+    width: 700px;
+}
+
+.filtraciones{
+    font-size: 10px;
+    color: $TERCIARIO;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.tipo_filtraciones{
+    background-color: $PRINCIPAL;
+    font-size: 13px;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* CARD */
+.card{
+    background-color: $PRINCIPAL;
+    border: none;
+    width: 320px;
+}
+.card:hover{
+border-bottom: 2px $TERCIARIO solid;
+}
+
+.imgCardMarca{
+width: 320px;
+height: 250px;
+}
+
+
+.titleCardMarca{
+margin: 8px;
+color: $TERCIARIO;
+font-size: 12px;
+font-weight: 400;
+}
+
+.modeloCardMarca{
+color: $TERCIARIO;
+font-size: 12px;
+font-weight: 400;
+}
+
+.textoCardMarca{
+    color: $TERCIARIO;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/* RELACIONADOS */
+
+.productosRelacionados{
+    background-color: $TERCIARIO;
+    border: none;
+}
+.titleRelacionados{
+    color: $PRINCIPAL;
+    font-size: $SIGNIKA;
+    font-weight: 700;
+    font-size: 28px;
+}
+.cardRelacionados{
+background-color: $TERCIARIO;
+}
+
+.imgCardRelacionados{
+    width: 350px;
+    height: 200px;
+}
+.modeloRelacionados{
+color: $PRINCIPAL;
+font-size: 14px;
+font-weight: 400;
+margin-top: 8px;
+}

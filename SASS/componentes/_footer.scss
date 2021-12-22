@@ -1,0 +1,26 @@
+ /* FOOTER */
+ #footerIndex{
+    background-color: $PRINCIPAL;
+    color: $TERCIARIO;
+    width: 100%;
+    height: auto;
+    .contenidoFooter{
+      .row{
+        width: 100%;
+      }
+    }
+  }
+
+  .linksFooter{
+    text-decoration: none;
+    color: $TERCIARIO;
+    margin: 0px 10px;
+  }
+
+  .contenidoFooter{
+    color: $TERCIARIO;  
+    display: inline;
+  }
+  .sitioFooter{
+    font-size: 16px;
+  }

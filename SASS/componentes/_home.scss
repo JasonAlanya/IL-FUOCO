@@ -1,0 +1,292 @@
+@import '../base/operadores';
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+
+/* BODY */
+body{
+    background-color: $PRINCIPAL;
+}
+
+
+/* HOME */
+
+.titleHome{
+  color: $TERCIARIO;
+  font-size: 26px;
+  font-weight: 700;
+
+}
+.subtitleHome{
+color: $TERCIARIO;
+text-align: center;
+font-size: 18px;
+border-bottom: 1px solid $TERCIARIO 
+}
+
+.imgHome{
+  height: 400px;
+}
+
+
+/* SECTION NOSOTROS */
+
+#nosotros{
+    font-family: $SIGNIKA;
+    background-color: #2B2B2B;
+    color: $TERCIARIO;
+    margin-top: 140px;
+}
+
+.titulosNosotros{
+font-size: 20px;
+}
+
+.subtituloNosotros{
+  margin: 20px 0px;
+width: 100rem;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+}
+
+.parrafosNosotros{
+    font-size: 14px;
+    width: 300px;
+}
+
+
+
+/* NUESTRAS MARCAS */
+#marcas{
+    background-color: $PRINCIPAL;
+    color: $TERCIARIO;
+    margin-top: 8em;
+}
+
+.marcasImagenes{
+display: flex;
+justify-content: space-evenly;
+
+}
+
+
+
+/* KITS STANDAR */
+#kits_estandar{
+  background-color: $TERCIARIO ;
+  padding: 40px 0 150px 0;
+  .kit_estandar_component{
+    display: flex;
+    width: 80%;
+    color: $TERCIARIO;
+    align-items: center;
+    height: 200px;
+    margin: 80px 0;
+    padding: 0 10%;
+    img{
+      height: 230px;
+    }
+
+    .text{
+      h2{
+        font-size: 20px;
+      }
+      h3{
+        font-size: 12px;
+      }
+    }
+  }
+
+  .kit_estandar_component_left{
+    background-color: $PRINCIPAL;
+    border-radius: 0 20px 20px 0;
+    img{
+      margin-right: 30px;
+    }
+  }
+
+  .kit_estandar_component_rigth{
+    background-color: $SECUNDARIO;
+    margin: 0 0 0 auto;
+    border-radius:  20px 0 0 20px;
+    img{
+      margin-left: 30px;
+    }
+    .text{
+      h2{
+        text-align: end;
+      }
+      h3{
+        text-align: end;
+      }
+    }
+  }
+}
+
+#productos{
+  background-color: $TERCIARIO ;
+  padding-bottom: 120px;
+  .tituloproductos{
+    margin-bottom: 35px;
+  }
+  .contenedor-kits{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    .fila{
+      width: 25%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .kit{
+        width: 85%;
+        position: relative;
+        margin: 0 auto;
+        overflow: hidden;
+
+        img{
+          width: 100%;
+          transform: scale(1);
+          transition: .1s ease;
+        }
+
+        .kit-titulo{
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0,0,0,0.5);
+          display: none;
+          justify-content: center;
+          align-items: center;
+          color: $TERCIARIO;
+          h2{
+            font-size: 0.7em;
+          }
+        }
+
+        &:hover .kit-titulo{
+          display: flex;
+        }
+
+        &:hover img{
+          transform: scale(1.2);
+        }
+      }
+    }
+
+    .fila1{
+      .kit1{
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+  
+  
+  /* PREGUNTAS FRECUENTES */
+  #preguntasFrecuentes{
+  background-color: $MARRON ;
+  color: $TERCIARIO ;
+  padding: 80px;
+  }
+  
+  .tituloPreguntas{
+    font-family: $SIGNIKA;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .parrafoPreguntas{
+  width: 450px;
+  }
+  
+  .preguntas{
+  font-size: 14px;
+  text-align: start;
+  }
+  
+  
+  .respuestaDePreguntas{
+    font-size: 12px;
+    text-align: start;
+  }
+  
+  /* CONTACTO */
+  
+  #contacto{
+    color: $TERCIARIO;
+    font-family: $SIGNIKA;
+
+      img{
+        width: 100%;
+      }
+  }
+  .tituloContacto{
+      font-size: 30px;
+  }
+  .subtituloContacto{
+      font-size: 16px;
+      width: 700px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+  }
+  
+  .tituloFormulario{
+    font-family: $SIGNIKA;
+    font-size: 25px;
+    margin-top: 10px;
+  }
+  .form-control{
+    font-family: $SIGNIKA;  
+    margin-bottom: 5px;
+    width: 25em;
+  }
+
+  .botonContacto{
+    background-color: orangered;
+    border: $PRINCIPAL;
+    color: $TERCIARIO;
+    border-radius: 5px;
+  }
+  
+  .logoContacto{
+    width: 7em !important;
+    height: 4em;
+  }
+
+  .informacionContacto{
+    background-color: $TERCIARIO;
+    font-family: $SIGNIKA;
+    color: $PRINCIPAL;
+    border-radius: 5px;
+    width: 23em;
+    padding: 30px 10px;
+
+  }
+
+  .imgUbicacion{
+  max-width: 100vw;
+  height: auto;
+  }
+
+
+ 
+
+
+ 
