@@ -1,0 +1,59 @@
+.presentacionKitObra{
+color: $TERCIARIO;
+background-color: $SECUNDARIO;
+}
+.fotosKitObra{
+    width: 350px;
+    height: 250px;
+}
+.linkPdf{
+    text-decoration: none;
+    color: $TERCIARIO;
+}
+.videoKitObra{
+    height: 450px;
+    width: 700px;
+}
+
+.infKitObra{
+background-color: $TERCIARIO;
+}
+
+.listaKitObraInf{
+    list-style: none;
+
+}
+
+.productosRelacionadosInf{
+    background-color: $PRINCIPAL;
+    .titleRelacionadosInf{
+        color: $TERCIARIO;
+    }
+}
+
+.text-list{
+margin-right: 10px;
+}
+
+.itemInf{
+margin: 0px 10px ;
+}
+.titleForm{
+    font-family: $SIGNIKA;
+    font-weight: 700;
+}
+.subtitleForm{
+    font-family: $SIGNIKA;
+}
+.textForm{
+    font-size: 14px;
+}
+
+.form-control{
+width: 45rem;
+}
+
+.btnForm{
+    background-color: orangered;
+    border: none;
+}
