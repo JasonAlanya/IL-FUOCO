@@ -14,10 +14,12 @@ body{
 
 
 /* HOME */
-
+#inicio{
+  margin-top: 50px;
+}
 .titleHome{
   color: $TERCIARIO;
-  font-size: 26px;
+  font-size: 32px;
   font-weight: 700;
 
 }
@@ -43,8 +45,11 @@ border-bottom: 1px solid $TERCIARIO
 }
 
 .titulosNosotros{
-font-size: 20px;
+font-size: 32px;
 }
+.titulosTextoNosotros{
+  font-size: 25px;
+  }
 
 .subtituloNosotros{
   margin: 20px 0px;
@@ -71,7 +76,6 @@ text-align: center;
 .marcasImagenes{
 display: flex;
 justify-content: space-evenly;
-
 }
 
 
@@ -95,6 +99,9 @@ justify-content: space-evenly;
     .text{
       h2{
         font-size: 20px;
+      }
+      .tituloKitsEstandar{
+        font-size: 32px;
       }
       h3{
         font-size: 12px;
@@ -236,7 +243,7 @@ justify-content: space-evenly;
       }
   }
   .tituloContacto{
-      font-size: 30px;
+      font-size: 32px;
   }
   .subtituloContacto{
       font-size: 16px;
@@ -252,12 +259,12 @@ justify-content: space-evenly;
     font-size: 25px;
     margin-top: 10px;
   }
-  .form-control{
+  .formControl{
     font-family: $SIGNIKA;  
     margin-bottom: 5px;
-    width: 25em;
+    width: 500px !important;
   }
-
+ 
   .botonContacto{
     background-color: orangered;
     border: $PRINCIPAL;
@@ -270,16 +277,15 @@ justify-content: space-evenly;
     height: 4em;
   }
 
-  .informacionContacto{
+   .informacionContacto{
     background-color: $TERCIARIO;
     font-family: $SIGNIKA;
     color: $PRINCIPAL;
     border-radius: 5px;
     width: 23em;
     padding: 30px 10px;
-
   }
-
+ 
   .imgUbicacion{
   max-width: 100vw;
   height: auto;
