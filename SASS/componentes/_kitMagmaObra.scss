@@ -1,3 +1,39 @@
+/* HEADER KIT OBRA*/
+#headerKit{
+    background-color: $TERCIARIO;
+    font-family: $SIGNIKA;
+    height: 60px;
+    width: 100%; 
+}
+
+.itemsHeaderKit{
+    color: $PRINCIPAL !important;
+    font-size: 16px;
+    margin: 0px 15px;
+    
+}
+.linkHeaderKit{
+    color: $PRINCIPAL;
+}
+.logoImgKit{
+    height: 60px;
+   width: 130px;
+}
+.redesHeaderKit{
+    text-decoration: none;
+}
+
+.itemsHeaderKit:hover{
+    background-image: linear-gradient(to top,#f84043 0%,  #FFA500 100%);
+    color: $TERCIARIO;
+}
+a:hover{
+    color: $TERCIARIO;
+}
+
+
+
+
 .presentacionKitObra{
 color: $TERCIARIO;
 background-color: $SECUNDARIO;

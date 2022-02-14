@@ -1,5 +1,5 @@
 /* HEADER */
-header{
+#header{
     font-family: $SIGNIKA;
     height: 100px;
     width: 100%; 
@@ -8,10 +8,12 @@ header{
 .itemsHeader{
     color: $TERCIARIO;
     font-size: 16px;
-    margin: 10px 10px;
+    margin: 0px 10px;
+    
 }
+
 .logoImg{
-    height: 100px;
+    height: 90px;
    width: 200px;
 }
 a{
@@ -26,13 +28,8 @@ a{
     background-image: linear-gradient(to top,#f84043 0%,  #FFA500 100%);
     color: $TERCIARIO;
 }
+
 a:hover{
     color: $TERCIARIO;
 }
-.redesHeader:hover{
-    background-color: $PRINCIPAL;
-    color: $TERCIARIO;
-}
-.logoImg:hover{
-    background-color: $PRINCIPAL;
-}
+

@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--BOOTSTRAP  -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <!-- Css -->
@@ -16,46 +14,70 @@
 </head>
 <body>
 <!-- HEADER -->
-<header class="header">
-    <nav class="menu">
-        <ol class="listaHeader">
-            <li class="itemsHeader">
-                <a href="#" class="linkHeader">
+<header id="headerKit">
+    <nav class="container menu">
+        <ul class="nav nav-pills d-flex align-items-center">
+            <li class="nav-item itemsHeaderKit redesHeader">
+                <a href="#" class="linkHeader redesHeader">
                     <img src="../Images/Search.png" alt="">
                 </a>
             </li>
-            <li class="itemsHeader">
-                <a href="#productos" class="linkHeader">PRODUCTOS</a>
+            <li class="nav-item dropdown">
+            <a class="nav-link  itemsHeaderKit" data-bs-toggle="dropdown" href="#"  aria-expanded="false">PRODUCTOS</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="hogares.html">HOGARES</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="parrillas.html">PARRILLAS</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="cerramientos.html">CERRAMIENTOS</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="accesorios.html">ACCESORIOS</a></li>
+            </ul>
             </li>
-            <li class="itemsHeader">
-                <a href="#kits_estandar" class="linkHeader">KITS ESTANDAR</a>
+            <li class="nav-item  dropdown">
+                <a class="nav-link  itemsHeaderKit" data-bs-toggle="dropdown" href="#"  aria-expanded="false">KITS ENTANDAR</a>
+                <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">KIT MAGMA </a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="../pages/kitObra.html">KIT MAGMA OBRA </a></li>
+                
+                </ul>
             </li>
-            <li class="itemsHeader">
-                <a href="#marcas" class="linkHeader">MARCAS</a>
+            <li class="nav-item  dropdown">
+                <a class="nav-link  itemsHeaderKit" data-bs-toggle="dropdown" href="#"  aria-expanded="false">MARCAS</a>
+                <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../pages/marcaMagma.html">MAGMA</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="../pages/marca2.html">MARCA 2</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="../pages/marca3.html">MARCA 3</a></li>
+                </ul>
             </li>
-            <li class="itemsHeader">
-                <a class="logoimg" href="#">
-                    <img src="../Images/Logo_header.png" alt="">
+            <li class="nav-item itemsHeaderKit"> 
+                <a href="../index.html">
+                    <img src="../Images/KitObra/logoHeaderSecundario.png" alt="" class="logoImgKit" >
                 </a>
             </li>
-            <li class="itemsHeader">
-                <a href="#nosotros" class="linkHeader">NOSOTROS</a>
+            <li class="itemsHeaderKit nav-item">
+                <a href="../index.html" class="linkHeaderKit">NOSOTROS</a>
             </li>
-            <li class="itemsHeader">
-                <a href="#contacto" class="linkHeader">CONTACTO</a>
+            <li class="itemsHeaderKit nav-item">
+                <a href="#contacto" class="linkHeaderKit">CONTACTO</a>
             </li>
-            <li class="itemsHeader">
-                <a href="" class="linkHeader">PROYECTOS</a>
+            <li class="itemsHeaderKit nav-item">
+                <a href="" class="linkHeaderKit">PROYECTOS</a>
             </li>
-            <li class="itemsHeader">
-                <a href="#" class="linkHeader">
-                    <img src="../Images/Vector_facebook.png" alt="">
-                </a>
-                <a href="#" class="linkHeader">
-                    <img src="../Images/Vector_instagram.png" alt="">
+            <li class="itemsHeaderKit nav-item ms-5">
+                <a href="https://www.facebook.com/" class="linkHeaderKit redesHeaderKit">
+                    <img src="../Images/KitObra/facebookHeaderSecundario.png" alt="">
                 </a>
             </li>
-        </ol>
+            <li class="itemsHeaderKit nav-item">
+                <a href="https://www.instagram.com/" class="linkHeaderKit redesHeaderKit">
+                    <img src="../Images/KitObra/igHeaderSecundario.png" alt="">
+                </a>
+            </li>
+        </ul>
     </nav>
 </header>
 <!-- PRESENTACION -->
@@ -69,10 +91,10 @@
                     <img src="../Images/Kit-magma-obra.png" alt="" class="fotosKitObra">
                 </div>
                 <div class="col-4">
-                    <img src="../Images/magma-kit_obra 2.png" alt="" class="fotosKitObra">
+                    <img src="../Images/KitObra/magma-kit_obra 2.png" alt="" class="fotosKitObra">
                 </div>
                 <div class="col-4">
-                    <img src="../Images/magma-kit_obra 3.png" alt="" class="fotosKitObra">
+                    <img src="../Images/KitObra/magma-kit_obra 3.png" alt="" class="fotosKitObra">
                 </div>
             </div>
             <div class="row text-center mt-5">
@@ -80,7 +102,7 @@
             </div>
             <div class="row mt-5 text-center">
                 <a href="#" class="linkPdf">
-                    <img src="../Images/iconsKitObra/pdf 1.png"> descargar ficha tecnica</img>
+                    <img src="../Images/KitObra/pdf 1.png"> descargar ficha tecnica</img>
                 </a>
             </div>
             <div class="row mt-5 d-flex justify-content-center">
@@ -96,12 +118,12 @@
                 <div class="col-12 d-flex justify-content-center">
                     <ul class="listaKitObraInf d-flex">
                         <h3 class="text-list">Compartir:</h3>
-                        <li class="itemInf"><a href=""><img src="../Images/iconsKitObra/facebook 1.png" alt=""></a></li>
-                        <li class="itemInf"><a href=""><img src="../Images/iconsKitObra/gmail 1.png" alt=""></a></li>
-                        <li class="itemInf"><a href=""><img src="../Images/iconsKitObra/instagram 1.png" alt=""></a></li>
-                        <li class="itemInf"><a href=""><img src="../Images/iconsKitObra/pinterest 1.png" alt=""></a></li>
-                        <li class="itemInf"><a href=""><img src="../Images/iconsKitObra/whatsapp 1.png" alt=""></a></li>
-                        <li class="itemInf"><a href=""><img src="../Images/iconsKitObra/printer 1.png" alt=""></a></li>
+                        <li class="itemInf"><a href=""><img src="../Images/KitObra/facebook 1.png" alt=""></a></li>
+                        <li class="itemInf"><a href=""><img src="../Images/KitObra/gmail 1.png" alt=""></a></li>
+                        <li class="itemInf"><a href=""><img src="../Images/KitObra/instagram 1.png" alt=""></a></li>
+                        <li class="itemInf"><a href=""><img src="../Images/KitObra/pinterest 1.png" alt=""></a></li>
+                        <li class="itemInf"><a href=""><img src="../Images/KitObra/whatsapp 1.png" alt=""></a></li>
+                        <li class="itemInf"><a href=""><img src="../Images/KitObra/printer 1.png" alt=""></a></li>
                     </ul>
                 </div>
             </div>
@@ -137,33 +159,33 @@
     </section>
 
 <!-- Productos relacionados -->
-    <section class="productosRelacionadosInf p-5">
-        <div class="container">
-            <div class="row p-5">
-                <h3 class="titleRelacionadosInf text-center">PRODUCTOS RELACIONADOS</h3>
+<section class="productosRelacionados p-5">
+    <div class="container">
+        <div class="row p-5">
+            <h3 class="titleRelacionados text-center">PRODUCTOS RELACIONADOS</h3>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <div class="cardRelacionados">
+                    <img src="../Images/hogaresMarca/hogaresMarca (1).png" alt="" class="imgCardRelacionados">
+                    <h3 class="modeloRelacionados text-center">MODELO X</h3>
+                </div>
             </div>
-            <div class="row">
-                <div class="col-4">
-                    <div class="cardRelacionados">
-                        <img src="../Images/relacionados (2).png" alt="" class="imgCardRelacionados">
-                        <h3 class="modeloRelacionados text-center">MODELO X</h3>
-                    </div>
+            <div class="col-4">
+                <div class="cardRelacionados">
+                    <img src="../Images/hogaresMarca/hogaresMarca (3).png" alt="" class="imgCardRelacionados">
+                    <h3 class="modeloRelacionados text-center">MODELO X</h3>
                 </div>
-                <div class="col-4">
-                    <div class="cardRelacionados">
-                        <img src="../Images/relacionados (1).png" alt="" class="imgCardRelacionados">
-                        <h3 class="modeloRelacionados text-center">MODELO X</h3>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="cardRelacionados">
-                        <img src="../Images/relacionados (1).png" alt="" class="imgCardRelacionados">
-                        <h3 class="modeloRelacionados text-center">MODELO X</h3>
-                    </div>
+            </div>
+            <div class="col-4">
+                <div class="cardRelacionados">
+                    <img src="../Images/hogaresMarca/hogaresMarca (2).png" alt="" class="imgCardRelacionados">
+                    <h3 class="modeloRelacionados text-center">MODELO X</h3>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- PREGUNTAS FRECUENTES -->
     <section id="preguntasFrecuentes">
@@ -207,10 +229,10 @@
                 <div class="col-6 pt-4">
                     <h5 class="tituloFormulario">Consultas</h5>
                     <form class="">
-                        <input type="name" class="form-control" placeholder="Nombre">
-                        <input type="email" class="form-control" placeholder="Mail">
-                        <input type="text" class="form-control" placeholder="Producto">
-                        <textarea class="form-control"  rows="3"></textarea>
+                        <input type="name" class="form-control formControl" placeholder="Nombre">
+                        <input type="email" class="form-control formControl" placeholder="Mail">
+                        <input type="text" class="form-control formControl" placeholder="Producto">
+                        <textarea class="form-control formControl"  rows="3"></textarea>
                         <button type="submit" class="btn btn-primary botonContacto">Enviar</button>
                     </form>
                 </div>
@@ -254,15 +276,16 @@
                  <p class="sitioFooter">SITIO</p>
                 </div>
                 <div class="col-4 d-flex justify-content-center">
-                    <a href= "#inicio"class="linksFooter"><img src="../images/flechaFooter.png" alt=""></a>
+                    <a href= "#headerKit"class="linksFooter"><img src="../images/flechaFooter.png" alt=""></a>
                 </div>
             </div>
         </div>
     </footer>
 
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+ <!-- Bootstrap -->
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
 </body>
 </html>

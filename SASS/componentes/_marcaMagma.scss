@@ -9,6 +9,14 @@
     font-size: 16px;
     margin-top: 30px ;
 }
+.marcaMagmaPresentacion{
+    width: 250px;
+    height: 200px;
+}
+.marcaPresentacion{
+    width: 250px;
+    height: 250px;
+}
 
 .descripcionMarca{
     color: $TERCIARIO;
@@ -71,7 +79,9 @@ font-weight: 400;
 }
 
 /* RELACIONADOS */
-
+.containerImgRelacionados{
+    background-color: $PRINCIPAL !important;
+}
 .productosRelacionados{
     background-color: $TERCIARIO;
     border: none;
@@ -95,4 +105,10 @@ color: $PRINCIPAL;
 font-size: 14px;
 font-weight: 400;
 margin-top: 8px;
+}
+.modeloRelacionadosKit{
+    color: $TERCIARIO;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 8px;
 }
