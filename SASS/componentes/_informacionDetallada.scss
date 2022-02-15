@@ -1,0 +1,44 @@
+@import '../base/operadores';
+.bodyInfoDetallada{
+    background-color: $TERCIARIO;
+}
+#detalleDelProducto{
+    background-color: $TERCIARIO ;
+    margin-top: 50px;
+}
+
+.titleDetalle{
+    font-size: 32px;
+    font-family: $SIGNIKA;
+}
+.detalleImg{
+    height: 300px;
+    width: 400px;
+}
+
+.linkPdfDetalle{
+    color: $PRINCIPAL;
+}
+.linkPdfDetalle:hover{
+    color: $PRINCIPAL;
+}
+
+/* formulario */
+.form-controlDetalle{
+    width: 32rem !important;
+    }
+.textFormDetalle{
+        font-size: 12px;
+    }
+
+    .text-listDetalle{
+        margin-right: 5px;
+        margin-top: 4px;
+        font-size: 18px;
+        }
+        
+        .itemInfDetalle{
+        margin: 0px 15px ;
+        height: 10px;
+        width: 20px;
+        }
