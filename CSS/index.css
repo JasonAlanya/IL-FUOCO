@@ -260,7 +260,20 @@ body {
 .itemsHeader {
   color: #fff;
   font-size: 16px;
-  margin: 0px 10px;
+  padding: 10px;
+}
+
+.headerHover:hover {
+  background-image: linear-gradient(to top, #f84043 0%, #FFA500 100%);
+  color: #fff;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #fff;
 }
 
 .logoImg {
@@ -273,18 +286,13 @@ a {
   color: #fff;
 }
 
+a:hover {
+  color: #fff;
+}
+
 .dropdown-menu {
   background-color: #fff;
   color: #2B2B2B;
-}
-
-.itemsHeader:hover {
-  background-image: linear-gradient(to top, #f84043 0%, #FFA500 100%);
-  color: #fff;
-}
-
-a:hover {
-  color: #fff;
 }
 
 /* BOTON WHATSAPP */
